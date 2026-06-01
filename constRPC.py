@@ -5,12 +5,10 @@ GETVALUE = '4'
 CREATE   = '5'
 STOP     = '6'
 
-# Para execução LOCAL: use 'localhost' nos 3 hosts abaixo
-# Para execução AWS:   use os IPs privados das instâncias EC2
-HOSTS   = 'localhost'      # IP do Servidor   (Máquina 1)
+HOSTS   = '172.31.24.65'      # IP do Servidor
 PORTS   = 5689
 PORTC1  = 5689
 PORTC2  = 5690
-HOSTC1  = 'localhost'      # IP do Client 1   (Máquina 2)
-HOSTC2  = 'localhost'      # IP do Client 2   (Máquina 3)
+HOSTC1  = '172.31.23.208'      # IP do Client 1
+HOSTC2  = '172.31.24.182'      # IP do Client 2
 
